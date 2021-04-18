@@ -1,0 +1,26 @@
+{
+  "name": "you-and-me-wedding-photography-server",
+  "version": "5.2.5",
+  "description": "A single page web page where user can pick available service and place their order. a admin can review who can send a project and he can manage working status based how much work is done.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Probir Ghosh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "fileupload": "^1.0.0",
+    "mongodb": "^3.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
